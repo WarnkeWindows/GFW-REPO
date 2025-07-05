@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  gfe-frontend:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+      - API_BASE_URL=https://gfe-backend-837326026335.us-central1.run.app

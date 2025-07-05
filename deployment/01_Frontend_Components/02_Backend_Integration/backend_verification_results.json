@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-07-05T10:25:16.352635",
+  "backend_url": "https://gfe-backend-837326026335.us-central1.run.app",
+  "backend_healthy": false,
+  "google_cloud_ok": false,
+  "endpoint_results": {
+    "/": {
+      "status_code": 403,
+      "response_length": 295,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "/api/quotes": {
+      "status_code": 403,
+      "response_length": 305,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "/api/leads": {
+      "status_code": 403,
+      "response_length": 304,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "/api/products": {
+      "status_code": 403,
+      "response_length": 307,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "/api/ai/estimate": {
+      "status_code": 403,
+      "response_length": 310,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "/api/chat": {
+      "status_code": 403,
+      "response_length": 303,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "/api/auth/status": {
+      "status_code": 403,
+      "response_length": 310,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  }
+}

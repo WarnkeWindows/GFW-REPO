@@ -1,0 +1,14 @@
+{
+  "environment": "production",
+  "oauth_client_id": "c00f1459-791d-4700-81ce-dadda7becc65",
+  "api_base_url": "https://gfe-backend-837326026335.us-central1.run.app",
+  "redirect_uri": "https://goodfaithexteriors.com/auth/callback",
+  "features": {
+    "ai_estimation": true,
+    "window_measurement": true,
+    "product_catalog": true,
+    "customer_portal": true,
+    "appointment_scheduling": true,
+    "chat_support": true
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "project_name": "GFE Headless OAuth Integration",
+  "version": "1.0.0",
+  "domains": {
+    "primary": "goodfaithexteriors.com",
+    "test": "goodfaithwindows.com"
+  },
+  "backend": {
+    "api_base_url": "https://gfe-backend-837326026335.us-central1.run.app",
+    "endpoints": {
+      "auth": "/api/auth",
+      "quotes": "/api/quotes",
+      "leads": "/api/leads",
+      "products": "/api/products",
+      "ai_estimate": "/api/ai/estimate",
+      "chat": "/api/chat",
+      "customer": "/api/customer"
+    }
+  },
+  "wix_config": {
+    "meta_site_id": "1daf6e42-c7ae-4e56-9a0f-24209afd43c2",
+    "account_id": "10d52dd8-ec9b-4453-adbc-6293b99af499",
+    "client_id": "00a645c0-e9d5-474e-8546-4759ca41752a",
+    "headless_client_id": "c00f1459-791d-4700-81ce-dadda7becc65",
+    "dashboard_link": "https://manage.wix.com/dashboard/1daf6e42-c7ae-4e56-9a0f-24209afd43c2/setup?referralInfo=sites-dropdown"
+  },
+  "google_cloud": {
+    "organization_id": "518845478181",
+    "service_account": "837326026335-compute@developer.gserviceaccount.com",
+    "workspace_api_key": "AIzaSyA9E2QwP5f4ndJYqTLtSF9-2aO1Ul3YbmQ",
+    "storage_bucket": "837326026335-og5oga2u90sm079ht8450s5j4v4kmio0.apps.googleusercontent.com"
+  },
+  "sentry": {
+    "organization_id": "4509594994868224",
+    "dsn": "https://daf10ccaaf2dcea42bc8ab5340f36027@o4509594994868224.ingest.us.sentry.io/4509595014463489",
+    "slug": "good-faith-exteriors-llc"
+  },
+  "theme": {
+    "primary_color": "#1a2332",
+    "secondary_color": "#d4af37",
+    "accent_color": "#c0c0c0",
+    "text_color": "#ffffff",
+    "background_color": "#0f1419",
+    "border_color": "#d4af37",
+    "button_primary": "#d4af37",
+    "button_secondary": "#c0c0c0",
+    "gradient": "linear-gradient(135deg, #1a2332 0%, #0f1419 100%)"
+  },
+  "components": {
+    "ai_window_estimator": {
+      "enabled": true,
+      "path": "/widgets/ai-window-estimator",
+      "description": "AI-powered window estimation with image analysis"
+    },
+    "good_faith_estimator": {
+      "enabled": true,
+      "path": "/widgets/good-faith-estimator",
+      "description": "Traditional step-by-step window estimation"
+    },
+    "ai_window_measure": {
+      "enabled": true,
+      "path": "/widgets/ai-window-measure",
+      "description": "AI-powered window measurement tool"
+    },
+    "product_browser": {
+      "enabled": true,
+      "path": "/widgets/product-browser",
+      "description": "Interactive window product catalog"
+    },
+    "quote_comparison": {
+      "enabled": true,
+      "path": "/widgets/quote-comparison",
+      "description": "Compare multiple quotes side by side"
+    },
+    "customer_portal": {
+      "enabled": true,
+      "path": "/widgets/customer-portal",
+      "description": "Customer login and project management"
+    },
+    "ai_chat_agent": {
+      "enabled": true,
+      "path": "/widgets/ai-chat-agent",
+      "description": "Intelligent customer support chat"
+    },
+    "appointment_scheduler": {
+      "enabled": true,
+      "path": "/widgets/appointment-scheduler",
+      "description": "Schedule consultations and measurements"
+    }
+  },
+  "oauth_flow": {
+    "authorization_url": "https://www.wix.com/oauth/authorize",
+    "token_url": "https://www.wix.com/oauth/access_token",
+    "scope": "offline_access",
+    "redirect_uri_test": "https://goodfaithwindows.com/auth/callback",
+    "redirect_uri_prod": "https://goodfaithexteriors.com/auth/callback"
+  }
+}
+
